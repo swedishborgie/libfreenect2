@@ -1,0 +1,23 @@
+Source: libfreenect2
+Priority: optional
+Maintainer: Michael Powers <swedishborgie@gmail.com>
+Build-Depends: debhelper-compat (= 12), cmake, pkg-config, libusb-1.0-0-dev, libturbojpeg-dev, libopenni2-dev, libopengl-dev, libglfw3-dev
+Standards-Version: 4.4.1
+Section: libs
+Homepage: https://github.com/swedishborgie/libfreenect2
+
+Package: libfreenect2
+Section: libs
+Architecture: amd64
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0, libturbojpeg, libopenni2-0, libopengl0, libglfw3
+Description: Library for interacting with the Microsoft Kinect 2 camera.
+ Driver for Kinect for Windows v2 (K4W2) devices.
+
+Package: libfreenect2-dev
+Section: libdevel
+Architecture: amd64
+Multi-Arch: same
+Depends: ${misc:Depends}, libusb-1.0-0-dev, libturbojpeg-dev, libopenni2-dev, libopengl-dev, libglfw3-dev
+Description: Library for interacting with the Microsoft Kinect 2 camera.
+ Driver for Kinect for Windows v2 (K4W2) devices.
