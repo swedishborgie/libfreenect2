@@ -1,3 +1,4 @@
 usr/lib/lib*.so* usr/lib/x86_64-linux-gnu
 usr/lib/OpenNI2/* usr/lib/x86_64-linux-gnu/OpenNI2
 usr/etc/udev/rules.d/* lib/udev/rules.d
+debian/com.github.swedishborgie.libfreenect2.metainfo.xml usr/share/metainfo

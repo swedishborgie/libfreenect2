@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <id>com.github.swedishborgie.libfreenect2</id>
+    <metadata_license>MIT</metadata_license>
+    <name>libfreenect2</name>
+    <summary>Library for interacting with the xbox one kinect.</summary>
+    <description>
+        <p>
+            Library for interacting with the xbox one kinect.
+        </p>
+    </description>
+    <provides>
+        <modalias>usb:v045ep02*</modalias>
+    </provides>
+</component>
