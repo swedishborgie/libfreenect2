@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
     <id>com.github.swedishborgie.libfreenect2</id>
-    <metadata_license>MIT</metadata_license>
+    <metadata_license>GPL-2+</metadata_license>
     <name>libfreenect2</name>
     <summary>Library for interacting with the xbox one kinect.</summary>
     <description>
@@ -10,6 +10,8 @@
         </p>
     </description>
     <provides>
-        <modalias>usb:v045ep02*</modalias>
+        <modalias>usb:v045Ep02C4d*</modalias>
+        <modalias>usb:v045Ep02D8d*</modalias>
+        <modalias>usb:v045Ep02D9d*</modalias>
     </provides>
 </component>
